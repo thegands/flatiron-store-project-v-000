@@ -6,7 +6,7 @@ RSpec.describe User, type: :model do
   end
 
   it "has many carts" do
-    @user.carts.create
+    # @user.carts.create
     expect(@user.carts.count).to eq(1)
   end
 
